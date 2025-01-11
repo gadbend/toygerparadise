@@ -1,0 +1,2 @@
+import{l as e,r as t,j as s,t as a}from"./index-_jK-s2t3.js";const n=({children:n})=>{const i=e(),[c,r]=t.useState(!0);return t.useEffect((()=>{(async()=>{try{const{data:{session:e}}=await a.auth.getSession();e||i("/login")}catch(e){i("/login")}finally{r(!1)}})()}),[i]),c?s.jsx("div",{className:"flex min-h-screen items-center justify-center bg-black text-white",children:"Loading..."}):s.jsx(s.Fragment,{children:n})};export{n as default};
+//# sourceMappingURL=ProtectedRoute-C3rQZwzu.js.map
