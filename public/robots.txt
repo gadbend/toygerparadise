@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://toygerparadise.com/sitemap.xml
